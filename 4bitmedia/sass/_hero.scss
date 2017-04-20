@@ -1,0 +1,54 @@
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    color: #fff;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .6);
+
+    @media (max-width: $mobileBreakpoint) {
+        font-size: 24px;
+    }
+
+    &--slogan {
+        margin: 0;
+    }
+
+    &--video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    &--play {
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+
+        border: 0;
+        background: none;
+        color: #fff;
+        cursor: pointer;
+        transform: scaleX(-1);
+        
+        &:focus, &:hover {
+            outline: none;
+            text-decoration: underline;
+        }
+    }
+
+    &--play-icon {
+        font-size: 28px;
+    }
+
+    &--play-text {
+        @extend %hidden;
+    }
+}

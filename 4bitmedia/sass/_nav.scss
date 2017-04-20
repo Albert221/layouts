@@ -1,0 +1,38 @@
+.nav {
+    max-width: 100%;
+
+    &--heading {
+        @extend %hidden;
+    }
+
+    &--list {
+        display: flex;
+
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    &--list-item {
+        @media (max-width: $mobileBreakpoint) {
+            flex: 1 auto;
+            text-align: center;
+        }
+    }
+
+    &--link {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        transition: .2s all;
+
+        @media (min-width: $mobileBreakpoint) {
+            padding: 0 15px;
+        }
+
+        &:focus, &:hover {
+            background: lighten($primaryColor, 15%);
+        }
+    }
+}

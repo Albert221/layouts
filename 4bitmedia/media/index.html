@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="theme-color" content="#020202">
+        <title>4bitMedia</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="dist/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body id="top">
+        <div class="wrapper">
+            <header class="header">
+                <div class="container header--container">
+                    <h1 class="header--heading">
+                        <a href="#top" class="header--logo">
+                            <img src="media/logo.png" alt="4bitMedia" class="header--logo-image">
+                        </a>
+                    </h1>
+                    <nav class="header--navigation nav">
+                        <h2 class="nav--heading">Nawigacja</h2>
+                        <ul class="nav--list">
+                            <li class="nav--list-item"><a href="#o-nas" class="nav--link">O nas</a></li>
+                            <li class="nav--list-item"><a href="#oferta" class="nav--link">Oferta</a></li>
+                            <li class="nav--list-item"><a href="#portfolio" class="nav--link">Portfolio</a></li>
+                            <li class="nav--list-item"><a href="#kontakt" class="nav--link">Kontakt</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <section class="hero">
+                <div class="container container__spacey">
+                    <h2 class="hero--slogan wow fadeInLeft">Agencja interaktywna,<br>która spełnia Twoje oczekiwania.</h2>
+                </div>
+                <video data-src="https://s3.eu-central-1.amazonaws.com/4bitmedia.pl/hero-video.mp4" poster="media/video-poster.jpg" id="video" class="hero--video" autoplay loop muted>
+                    <source src="https://s3.eu-central-1.amazonaws.com/4bitmedia.pl/hero-video.webm" type="video/webm">
+                </video>
+                <button id="play" class="hero--play fa-fw"><i class="fa fa-volume-off hero--play-icon" aria-hidden="true"></i><span class="hero--play-text">włącz dźwięk</span></button>
+            </section>
+            <section id="o-nas" class="section section__odd">
+                <div class="container container__spacey">
+                    <h2 class="section--heading">O nas</h2>
+                    <ul class="about-photos">
+                        <li class="about-photos--item wow bounceIn">
+                            <figure>
+                                <img src="media/albert.jpg" alt="Zdjęcie Alberta" class="about-photos--photo">
+                                <figcaption class="about-photos--name">Albert<small>web</small></figcaption>
+                            </figure>
+                        </li>
+                        <li class="about-photos--item wow bounceIn">
+                            <figure>
+                                <img src="media/dawid.jpg" alt="Zdjęcie Dawida" class="about-photos--photo">
+                                <figcaption class="about-photos--name">Dawid<small>branding &amp; design</small></figcaption>
+                            </figure>
+                        </li>
+                        <li class="about-photos--item wow bounceIn">
+                            <figure>
+                                <img src="media/artur.jpg" alt="Zdjęcie Artura" class="about-photos--photo">
+                                <figcaption class="about-photos--name">Artur<small>public relations</small></figcaption>
+                            </figure>
+                        </li>
+                        <li class="about-photos--item wow bounceIn">
+                            <figure>
+                                <img src="media/mateusz.jpg" alt="Zdjęcie Mateusza" class="about-photos--photo">
+                                <figcaption class="about-photos--name">Mateusz<small>produkty promocyjne</small></figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                    <p class="wow fadeIn">Jesteśmy grupką znajomych z technikum informatycznego, w którym zdobywamy zawód. Kilkoro z nas interesuje się tym, co robi już od dziecka, dzięki czemu mamy duże doświadczenie.</p>
+                    <p class="wow fadeIn">Albert, prezes spółki, od dziecka interesuje się webdeveloperką i aktywnie zdobywa doświadczenie rozwijając swoje własne projekty. Jest osobą cierpliwą i asertywną. W swoim fachu perfekcjonista. Nie lubi braku organizacji. W wolnym czasie gra w gry komputerowe i jeździ na rowerze.</p>
+                    <p class="wow fadeIn">Dawid, wiceprezes, cichy chłopak, który od trzynastego roku życia interesuje się grafiką i animacją komputerową, wciąż pragnie pogłębiać swoją wiedzę i umiejętności, aby dojść do perfekcji. W wolnym czasie zajmuje się piłką nożną, sprzętem komputerowym i grami, wyznawca PCMasterRace.</p>
+                    <p class="wow fadeIn">Artur, młody pasjonat informatyki, od dziecka interesował się komputerami. Najbardziej interesuje go hardware. Cierpliwy, pomocny i zawzięty, dopóki coś nie będzie działać nie zostawi tego. W wolnym czasie lubi grać w gry komputerowe, ale ulubionym zajęciem jest składanie nowych komputerów.</p>
+                    <p class="wow fadeIn">Mateusz, młody przedsiębiorca, od małego starał się zarobić na własną rękę i już w wieku trzynastu lat zarabiał własne pieniądze. Zajmuje się wieloma dziedzinami, poza IT prężnie działa w marketingu. Aktualnie może poszczycić się bogatym zasobem umiejętności manualnych i handlowych.</p>
+                </div>
+            </section>
+            <section id="oferta" class="section">
+                <div class="container container__spacey">
+                    <h2 class="section--heading">Oferta</h2>
+                    <ul class="offer-list">
+                        <li class="offer-list--item wow flipInX">
+                            <h3 class="offer-list--heading">Tworzenie wizerunku online</h3>
+                            <ul>
+                                <li class="offer-list--step">Tworzymy Twój unikalny branding</li>
+                                <li class="offer-list--step">Tworzymy stronę internetową</li>
+                                <li class="offer-list--step">Prowadzimy kampanię reklamową</li>
+                                <li class="offer-list--step">Zbieramy grupę fanów w social media</li>
+                            </ul>
+                            <p>Pakiet idealny dla osób i firm, chcących zaistnieć w Internecie.</p>
+                        </li>
+                        <li class="offer-list--item wow flipInX">
+                            <h3 class="offer-list--heading">Tworzenie wizerunku lokalnie</h3>
+                            <ul>
+                                <li class="offer-list--step">Tworzymy grafiki reklamowe</li>
+                                <li class="offer-list--step">Roznosimy ulotki i rozwieszamy plakaty</li>
+                                <li class="offer-list--step">Wynajmujemy powierzchnie reklamowe na billboardach</li>
+                            </ul>
+                            <p>Pakiet dla firm, które chcą stać się rozpoznawalne w swoim rejonie.</p>
+                        </li>
+                    </ul>
+                    <p class="wow fadeIn">Chcesz zaistnieć w internecie? A może chcesz stać się rozpoznawalny w swojej okolicy? Dla nas to nie problem, zrobimy to za Ciebie!</p>
+                    <p class="wow fadeIn">Tworzymy strony internetowe najwyższej jakości, zgodne z najnowszymi standardami. Jeśli nie masz pomysłu na logo swojej firmy, nie martw się, posiadamy wyspecjalizowanych grafików dla których żadne logo nie będzie problemem. Jeżeli to za mało,  wypromujemy Twoją firmę w Internecie lub lokalnie, między innymi dzięki założeniu fanpage-a na Facebooku, wydrukowi ulotek, plakatów reklamowych, zaprojektowaniu billboardu i nie tylko, jeśli chcesz, rozniesiemy je także po okolicy. Jeśli to wciąż za mało, tworzymy długopisy z własnymi nadrukami, kubki, słodycze, smycze i inne gadżety.</p>
+                    <p class="wow fadeIn">Jeśli to Ciebie nie przekonuje, wyślij do nas wiadomość. Z pewnością się dogadamy.</p>
+                </div>
+            </section>
+            <section id="portfolio" class="section section__odd">
+                <div class="container container__spacey">
+                    <h2 class="section--heading">Portfolio</h2>
+                    <figure class="project">
+                        <img src="media/project1.jpg" alt="Ujęcie domów ze spotu" class="project--image wow fadeInLeft">
+                        <figcaption class="project--description wow fadeInRight">
+                            <h3 class="project--title">Spot reklamowy osiedla</h3>
+                            <p>Nasza agencja zajmuje się szeroką gamą animacji i spotów reklamowych. Głównie skupiamy się na animacjach ilustracyjnych przy użyciu obiektów wektorowych ale również zajmujemy się animacjami z użyciem obiektów 3D, które sami przygotowujemy na potrzeby zlecenia. Posługujemy się oprogramowaniem firmy Adobe i Maxon.</p>
+                            <p>W miarę upływu czasu rozbudujemy nasz arsenał o silnik renderujący Octane Render i inne programy takie jak Substance Designer - tworzenie materiałów, Houdini Engine - symulacje cząsteczkowe i wiele innych.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="project">
+                        <img src="media/project2.jpg" alt="Grafika z logiem" class="project--image wow fadeInRight ">
+                        <figcaption class="project--description wow fadeInLeft">
+                            <h3 class="project--title">Branding osoby prywatnej</h3>
+                            <p>Poza wizualizacją filmową zajmujemy się również grafiką statyczną: banerami, logotypami, grafiką na zamówienie, infografikami, okładkami, plakatami i tym podobnym. Planujemy również rozbudować nasze usługi o fotografię profesjonalną.</p>
+                        </figcaption>
+                    </figure>
+                    <a href="https://imgur.com/a/wu91q" class="project-more wow fadeInUp">Więcej prac znajduje się pod tym linkiem&nbsp;→</a>
+                </div>
+            </section>
+            <section id="kontakt" class="section section__contact">
+                <div class="container container__spacey">
+                    <h2 class="section--heading">Kontakt</h2>
+                    <p class="wow fadeIn">Jesteśmy w biurze od poniedziałku do piątku od 8:00 do 16:00. Na wiadomości odpowiadamy przez cały tydzień.</p>
+                    <address class="wow fadeIn">4bitMedia s.c.<br>ul. Generała Józefa Hallera 13<br>84-100 Puck<br>Tel.: 58 673 25 25</address>
+                    <h3 class="wow fadeIn">Napisz do nas!</h3>
+                    <form action="send" method="post" class="contact-form">
+                        <label for="subject" class="contact-form--label">Temat</label>
+                        <input type="text" id="subject" name="subject" class="contact-form--field wow fadeIn" placeholder="Temat wiadomości" required>
+                        <label for="email" class="contact-form--label">Adres email</label>
+                        <input type="email" id="email" name="email" class="contact-form--field wow fadeIn" placeholder="Twój adres email" required>
+                        <label for="content" class="contact-form--label">Treść wiadomości</label>
+                        <textarea name="content" id="content" rows="10" class="contact-form--rich-field wow fadeIn" placeholder="Treść wiadomości..." minlength="100" required></textarea>
+                        <p class="contact-form--hint wow fadeIn">Co najmniej 100 znaków. Użyto 0 znaków.</p>
+                        <p class="contant-form--send-container wow rubberBand">
+                            <input type="submit" class="contact-form--send" value="Wyślij">
+                            <span class="contact-form--send-status"></span>
+                        </p>
+                    </form>
+                </div>
+                <div id="map" class="section--map wow zoomIn"></div>
+            </section>
+            <footer class="footer">
+                <div class="container container__spacey footer--container">
+                    <p class="footer--text">&copy; 4bitMedia, 2017</p>
+                    <p class="footer--text">Design &amp; code by <a href="http://albert221.net">Albert221</a></p>
+                </div>
+            </footer>
+        </div>
+        <script src="dist/scripts.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC448UfWfH8TlNniRKDC5oYiXUM9fpBjRA&amp;callback=initMap"
+    async defer></script>
+    </body>
+</html>

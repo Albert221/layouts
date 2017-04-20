@@ -1,0 +1,35 @@
+.offer-list {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @media (max-width: $mobileBreakpoint) {
+        flex-direction: column;
+    }
+
+    &--item {
+        flex: 1 100%;
+        padding: 30px;
+        background: rgba(200, 200, 200, .7);
+
+        &:not(:first-child) {
+            @media (max-width: $mobileBreakpoint) {
+                margin-top: 30px;
+            }
+            @media (min-width: $mobileBreakpoint) {
+                margin-left: 30px;
+            }
+        }
+    }
+
+    &--heading {
+        margin-top: 0;
+    }
+
+    &--step {
+        margin-bottom: 10px;
+    }
+}

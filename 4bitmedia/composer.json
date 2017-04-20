@@ -1,0 +1,6 @@
+{
+    "require": {
+        "slim/slim": "^3.8",
+        "swiftmailer/swiftmailer": "^5.4"
+    }
+}

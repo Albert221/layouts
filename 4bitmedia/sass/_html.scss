@@ -1,0 +1,41 @@
+*, :before, :after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font: 16px 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    // To get rid of blank space on the right on mobile
+    overflow-x: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+input, textarea, button {
+    font: inherit;
+}
+
+a {
+    color: #fff;
+}
+
+p {
+    margin: 1.5em 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+small {
+    display: block;
+}

@@ -1,0 +1,18 @@
+.footer {
+    padding: 30px 0;
+    background: $primaryColor;
+    color: #fff;
+    
+    &--container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &--text {
+        margin: 0;
+
+        &:last-child {
+            text-align: right;
+        }
+    }
+}

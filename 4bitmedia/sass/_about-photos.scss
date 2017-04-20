@@ -1,0 +1,23 @@
+.about-photos {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @media (max-width: $mobileBreakpoint) {
+        flex-direction: column;
+    }
+
+    &--item {
+        flex: 1;
+    }
+
+    &--photo {
+        width: 100%;
+    }
+
+    &--name {
+        font-size: 20px;
+        text-align: center;
+    }
+}
